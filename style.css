@@ -1,0 +1,28 @@
+/* Drag & Drop Visual Feedback */
+.task-card.dragging {
+  opacity: 0.4;
+  transform: scale(0.98);
+}
+
+.kanban-column.drag-over {
+  background-color: rgba(51, 65, 85, 0.5);
+  border-radius: 0.375rem;
+  outline: 2px dashed #3b82f6;
+  outline-offset: -4px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
